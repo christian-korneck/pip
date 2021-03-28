@@ -471,7 +471,7 @@ def _install_wheel(
     warn_script_location=True,  # type: bool
     direct_url=None,  # type: Optional[DirectUrl]
     requested=False,  # type: bool
-    maker_executable=None, # type: Optional[str]
+    maker_executable=None,  # type: Optional[str]
 ):
     # type: (...) -> None
     """Install a wheel.
@@ -807,7 +807,7 @@ def install_wheel(
     warn_script_location=True,  # type: bool
     direct_url=None,  # type: Optional[DirectUrl]
     requested=False,  # type: bool
-    maker_executable=None, # type: Optional[str]
+    maker_executable=None,  # type: Optional[str]
 ):
     # type: (...) -> None
     with ZipFile(wheel_path, allowZip64=True) as z:
