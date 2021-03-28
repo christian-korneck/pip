@@ -700,7 +700,7 @@ def _install_wheel(
     maker = PipScriptMaker(None, scheme.scripts)
 
     if maker_executable:
-        maker.executable = maker_executable
+        maker.executable = maker_executable  # type: ignore
 
     # Ensure old scripts are overwritten.
     # See https://github.com/pypa/pip/issues/1800
