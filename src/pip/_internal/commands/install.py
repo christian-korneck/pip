@@ -212,7 +212,7 @@ class InstallCommand(RequirementCommand):
         self.cmd_opts.add_option(cmdoptions.require_hashes())
         self.cmd_opts.add_option(cmdoptions.progress_bar())
 
-	# string (not file) to allow just "python.exe" on Windows
+        # string (not file) to allow just "python.exe" on Windows
         self.cmd_opts.add_option(
             '--maker-executable',
             dest='maker_executable',

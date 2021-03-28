@@ -45,7 +45,7 @@ def install_given_reqs(
     warn_script_location,  # type: bool
     use_user_site,  # type: bool
     pycompile,  # type: bool
-    maker_executable, # type: Optional[str]
+    maker_executable,  # type: Optional[str]
 ):
     # type: (...) -> List[InstallationResult]
     """

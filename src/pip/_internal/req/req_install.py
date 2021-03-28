@@ -106,7 +106,7 @@ class InstallRequirement:
         constraint=False,  # type: bool
         extras=(),  # type: Iterable[str]
         user_supplied=False,  # type: bool
-        maker_executable=None, # type: Optional[str]
+        maker_executable=None,  # type: Optional[str]
     ):
         # type: (...) -> None
         assert req is None or isinstance(req, Requirement), req
@@ -744,7 +744,7 @@ class InstallRequirement:
         warn_script_location=True,  # type: bool
         use_user_site=False,  # type: bool
         pycompile=True,  # type: bool
-        maker_executable=None, # type: Optional[str]
+        maker_executable=None,  # type: Optional[str]
     ):
         # type: (...) -> None
         scheme = get_scheme(
